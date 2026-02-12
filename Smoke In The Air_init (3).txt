@@ -1,0 +1,336 @@
+campaignTrail_temp.global_parameter_json = [
+    {
+        "model": "campaign_trail.global_parameter",
+        "pk": 1,
+        "fields": {
+            "vote_variable": 1.125,
+            "max_swing": 0.12,
+            "start_point": 0.94,
+            "candidate_issue_weight": 10,
+            "running_mate_issue_weight": 3,
+            "issue_stance_1_max": -0.71,
+            "issue_stance_2_max": -0.3,
+            "issue_stance_3_max": -0.125,
+            "issue_stance_4_max": 0.125,
+            "issue_stance_5_max": 0.3,
+            "issue_stance_6_max": 0.71,
+            "global_variance": 0.01,
+            "state_variance": 0.005,
+            "question_count": 19,
+            "default_map_color_hex": "#a3948c",
+            "no_state_map_color_hex": "#a3948c"
+        }
+    }
+]
+
+campaignTrail_temp.election_json = [
+    {
+        "model": "campaign_trail.election",
+        "pk": 21,
+        "fields": {
+            "year": 2028,
+            "summary": "<h3> <b> 2028 </b> will prove to be the most... interesting election in American history. </h3> <p> On the Republican side, Speaker of the House <i><b style=\"color:darkred;font-size:15px\">Mike Johnson</b></i> has shocked the nation by beating Vice-President Vance in a grueling primary battle. On the Democratic side, you have... whatever the hell happened there... it's complicated, okay?\n\n<p> All you need to know is that somehow an 18-year-old genderfluid Deltarune fan somehow got the nomination and convinced some random dude they shitposted with 3 years ago to join the ticket. <p><i>This isn't going to go well for anyone.",
+            "image_url": "https://i.imgur.com/cwSvPq4.png",
+            "winning_electoral_vote_number": 270,
+            "advisor_url": "https://i.imgur.com/ab6IQNN.gif",
+            "recommended_reading": "https://store.steampowered.com/app/1671210/DELTARUNE/",
+            "has_visits": 1,
+            "no_electoral_majority_image": "https://www.jetsimon.com/public/static/images/2012-no-majority.jpg",
+            "creator": "Dan Bryan",
+            "display_year": "Smoke In The Air"
+        }
+    }
+]
+
+campaignTrail_temp.candidate_json = [
+    {
+        "model": "campaign_trail.candidate",
+        "pk": 300,
+        "fields": {
+            "first_name": "Gunsmoke",
+            "last_name": "Exeon",
+            "election": 21,
+            "party": "Nominally Democratic - Actually PSL",
+            "state": "Louisiana",
+            "priority": 1,
+            "description": "<p> <b style=\"text-shadow:1px 1px 1px purple\">Gunsmokexeon</b> stands as something bigger than herself. In this moment, where the tension is palpable, the crowds hold their cheers, and she herself is almost too stunned to speak, there is something more to her. \n\n<p> It hits her so hard and quick it doesn't even register. She has not persevered; she has risen. She has not fallen to the wayside; she has found her way back on the road, even finding her way to the front. She is not a follower, at the whim of someone who couldn't point her out from another sheep in the crowd; she is the shepherd who commands the hopeful herd that dreams of a better tommorow.\n\n<p> In moments like these, people like her...</p>\n\n<b><center style=\"text-shadow: 0px -1px 0.25px red\">Realize how deep they're in it, far too late.</b>",
+            "color_hex": "#846ed4",
+            "secondary_color_hex": "#90C0FF",
+            "is_active": 1,
+            "image_url": "https://i.imgur.com/zIf0MQw.png",
+            "electoral_victory_message": "<h3>\"We can now project that...\" </h3><p> \"<b> Gunsmokexeon </b> has been elected as the 48th President of the United States. This is a monumental occasion in American History, as Gunsmoke is the first ever LGBT+ person to ever be elected to the White House. In addition, it stands as a stunning rebuke of the Trump administration's policies over the last 4 years, primarily its conservative economic and social policies. \"<p> \"As for the GOP, they are assuredly deprecated by this defeat. After 4 years, it seems that the country has finally chosen to move on from MAGA ideology. This leaves 2032 as a potential pathway for the party to choose a new ideology - or double down on what has worked twice before.\"",
+            "electoral_loss_message": "<h3>\"We can now project that...\" </h3><p> \"<b> James David Vance </b> has been elected as the 48th President of the United States. This is a historic moment in American History, as Vance will be the first ever Millennial President, potentially marking a shifting towards a younger generation in the American political system.\" <p> \"As for the Democrats, they are assuredly going to lean more to the right in their next go for the White House, with some high-ranking officials already signaling their support for rolling back on the parties left-wing social stances and pivoting towards a more populistic rhetoric.\" ",
+            "no_electoral_majority_message": "<h3>How the fuck did you do this </h3> \"Replay the mod and don't get a deadlock this time I'm too tired to write an ending for this.\"",
+            "description_as_running_mate": "",
+            "candidate_score": 1,
+            "running_mate": false
+        }
+    },
+    {
+        "model": "campaign_trail.candidate",
+        "pk": 302,
+        "fields": {
+            "first_name": "",
+            "last_name": "ThePearPerson",
+            "election": 21,
+            "party": "Democratic Party - Radical Neoliberal",
+            "state": "Arkansas",
+            "priority": 5,
+            "description": "'",
+            "color_hex": "#0000FF",
+            "secondary_color_hex": "#90C0FF",
+            "is_active": 0,
+            "image_url": "https://i.imgur.com/xptWmhX.png",
+            "electoral_victory_message": "'",
+            "electoral_loss_message": "'",
+            "no_electoral_majority_message": "'",
+            "description_as_running_mate": "<p> \"Gunsmoke, I'm not joining your ticket.\"\n\n<p> \":3 Please it'll be fun schlawg\"\n\n<p> \"No, it won't I already worked a campaign with Cooper in '26, and that sucked. I'm not putting myself in that line\"\n\n<p> <i> \"boykisserupset.jpg </i> I am inside your house.\"\n\n<p> \"Lol. Wait are you for real? Please don't break into my room please dont do this\"\n\n<p> \"Join the ticket.\"",
+            "candidate_score": 0,
+            "running_mate": true
+        }
+    },
+    {
+        "model": "campaign_trail.candidate",
+        "pk": 301,
+        "fields": {
+            "first_name": "JD ",
+            "last_name": "Vance",
+            "election": 21,
+            "party": "Republican Party - MAGA",
+            "state": "Ohio",
+            "priority": 1,
+            "description": "<p>Put description here</p>",
+            "color_hex": "#A73270",
+            "secondary_color_hex": null,
+            "is_active": 0,
+            "image_url": "https://www.jetsimon.com/public/candidateexample.png",
+            "electoral_victory_message": "This guy wins!",
+            "electoral_loss_message": "This guy loses!",
+            "no_electoral_majority_message": "We all win?",
+            "description_as_running_mate": null,
+            "candidate_score": 1,
+            "running_mate": false
+        }
+    },
+    {
+        "model": "campaign_trail.candidate",
+        "pk": 41591,
+        "fields": {
+            "first_name": "Woman _",
+            "last_name": "Trees",
+            "election": 21,
+            "party": "Turbo Team",
+            "state": "Ohio",
+            "priority": 1,
+            "description": "<p>Put description here</p>",
+            "color_hex": "#86a2a0",
+            "secondary_color_hex": null,
+            "is_active": 0,
+            "image_url": "https://www.jetsimon.com/public/candidateexample.png",
+            "electoral_victory_message": "This guy wins!",
+            "electoral_loss_message": "This guy loses!",
+            "no_electoral_majority_message": "We all win?",
+            "description_as_running_mate": null,
+            "candidate_score": 1,
+            "running_mate": false
+        }
+    },
+    {
+        "model": "campaign_trail.candidate",
+        "pk": 41653,
+        "fields": {
+            "first_name": "One-",
+            "last_name": "Community",
+            "election": 21,
+            "party": "Fourth-Party",
+            "state": "Indiana",
+            "priority": 1,
+            "description": "<p>Put description here</p>",
+            "color_hex": "#928b45",
+            "secondary_color_hex": null,
+            "is_active": 0,
+            "image_url": "https://www.jetsimon.com/public/candidateexample.png",
+            "electoral_victory_message": "This guy wins!",
+            "electoral_loss_message": "This guy loses!",
+            "no_electoral_majority_message": "We all win?",
+            "description_as_running_mate": null,
+            "candidate_score": 1,
+            "running_mate": false
+        }
+    },
+    {
+        "model": "campaign_trail.candidate",
+        "pk": 50000,
+        "fields": {
+            "first_name": "Jon ",
+            "last_name": "Stewart",
+            "election": 21,
+            "party": "Turbo Team",
+            "state": "Idaho",
+            "priority": 1,
+            "description": "<p>Put description here</p>",
+            "color_hex": "#0000FF",
+            "secondary_color_hex": null,
+            "is_active": 0,
+            "image_url": "https://www.jetsimon.com/public/candidateexample.png",
+            "electoral_victory_message": "This guy wins!",
+            "electoral_loss_message": "This guy loses!",
+            "no_electoral_majority_message": "We all win?",
+            "description_as_running_mate": null,
+            "candidate_score": 1,
+            "running_mate": true
+        }
+    },
+    {
+        "model": "campaign_trail.candidate",
+        "pk": 50001,
+        "fields": {
+            "first_name": "",
+            "last_name": "HighKingFloof",
+            "election": 21,
+            "party": "Turbo Team",
+            "state": "Idaho",
+            "priority": 1,
+            "description": "<p>Put description here</p>",
+            "color_hex": "#0000FF",
+            "secondary_color_hex": null,
+            "is_active": 0,
+            "image_url": "https://www.jetsimon.com/public/candidateexample.png",
+            "electoral_victory_message": "This guy wins!",
+            "electoral_loss_message": "This guy loses!",
+            "no_electoral_majority_message": "We all win?",
+            "description_as_running_mate": null,
+            "candidate_score": 1,
+            "running_mate": true
+        }
+    },
+    {
+        "model": "campaign_trail.candidate",
+        "pk": 50002,
+        "fields": {
+            "first_name": "Toby",
+            "last_name": "Fox",
+            "election": 21,
+            "party": "Turbo Team",
+            "state": "Idaho",
+            "priority": 1,
+            "description": "<p>Put description here</p>",
+            "color_hex": "#0000FF",
+            "secondary_color_hex": null,
+            "is_active": 0,
+            "image_url": "https://www.jetsimon.com/public/candidateexample.png",
+            "electoral_victory_message": "This guy wins!",
+            "electoral_loss_message": "This guy loses!",
+            "no_electoral_majority_message": "We all win?",
+            "description_as_running_mate": null,
+            "candidate_score": 1,
+            "running_mate": true
+        }
+    }
+]
+
+campaignTrail_temp.running_mate_json = [
+    {
+        "model": "campaign_trail.running_mate",
+        "pk": 122645,
+        "fields": {
+            "candidate": 300,
+            "running_mate": 302
+        }
+    },
+    {
+        "model": "campaign_trail.running_mate",
+        "pk": 155719,
+        "fields": {
+            "candidate": 300,
+            "running_mate": 50000
+        }
+    },
+    {
+        "model": "campaign_trail.running_mate",
+        "pk": 125152,
+        "fields": {
+            "candidate": 300,
+            "running_mate": 50001
+        }
+    },
+    {
+        "model": "campaign_trail.running_mate",
+        "pk": 151960,
+        "fields": {
+            "candidate": 300,
+            "running_mate": 50002
+        }
+    }
+]
+
+campaignTrail_temp.credits = "ThePearPerson"
+
+campaignTrail_temp.opponents_default_json = [
+    {
+        "election": 21,
+        "candidates": [
+            300,
+            301,
+            41591,
+            41653
+        ]
+    }
+]
+
+campaignTrail_temp.opponents_weighted_json = [
+    {
+        "election": 21,
+        "candidates": [
+            300,
+            301,
+            41591,
+            41653
+        ]
+    }
+]
+
+campaignTrail_temp.temp_election_list = [
+    {
+        "id": 21,
+        "year": 2028,
+        "is_premium": 0,
+        "display_year": "Smoke In The Air"
+    }
+]
+
+jet_data = {
+    "headerColor": "#7e4582",
+    "windowColor": "#8db49c",
+    "containerColor": "#9c408f",
+    "innerWindowColor": "#e5ffeb",
+    "bannerImageUrl": "https://i.imgur.com/s74NzsJ.png",
+    "backgroundImageUrl": "https://i.imgur.com/NsGicUA.png",
+    "endingTextColor": "#000000",
+    "customQuote": "\"I really like tucker\" - Gunsmokexeon",
+    "gameTitle": "Smoke In The Air"
+}
+
+//#startcode
+
+
+corrr = '\n              <h2>Smoke In The Air</h2><font id="wittyquote" size="4" color="white"><em>"I really like tucker" - Gunsmokexeon</em></font>\n            ';
+
+
+nct_stuff.themes[nct_stuff.selectedTheme].coloring_title = "#7e4582";
+
+nct_stuff.themes[nct_stuff.selectedTheme].coloring_window = "#8db49c";
+
+document.getElementsByClassName("game_header")[0].style.backgroundColor = nct_stuff.themes[nct_stuff.selectedTheme].coloring_title;
+
+$("#game_window")[0].style.backgroundColor = nct_stuff.themes[nct_stuff.selectedTheme].coloring_window;
+
+$(".container")[0].style.backgroundColor = "#9c408f";
+
+document.getElementById("header").src = "https://i.imgur.com/s74NzsJ.png";
+
+document.body.background = "https://i.imgur.com/NsGicUA.png";
+
+document.head.innerHTML += "<style>#results_container {color:#000000;} .inner_window_w_desc {background-color:#e5ffeb!important;}</style>";
+
+//#endcode
