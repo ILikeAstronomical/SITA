@@ -29,8 +29,8 @@ campaignTrail_temp.election_json = [
         "pk": 21,
         "fields": {
             "year": 2028,
-            "summary": "<h3> <b> 2028 </b> will prove to be the most... interesting election in American history. </h3> <p> On the Republican side, Speaker of the House <i><b style=\"color:darkred;font-size:15px\">Mike Johnson</b></i> has shocked the nation by beating Vice-President Vance in a grueling primary battle. On the Democratic side, you have... whatever the hell happened there... it's complicated, okay?\n\n<p> All you need to know is that somehow an 18-year-old genderfluid Deltarune fan somehow got the nomination and convinced some random dude they shitposted with 3 years ago to join the ticket. <p><i>This isn't going to go well for anyone.",
-            "image_url": "https://i.imgur.com/cwSvPq4.png",
+            "summary": "<h3> <b> 2028 </b> will prove to be the most... interesting election in American history. </h3> <p> On the Republican side, Former Speaker of the House <i><b style=\"color:darkred;font-size:15px\">Mike Johnson</b></i> has shocked the nation by beating President Vance in a grueling primary battle. On the Democratic side, you have... whatever the hell happened there... it's complicated, okay?\n\n<p> All you need to know is that <i>somehow</i> an 18-year-old genderfluid Deltarune fan got the nomination and convinced some random dude they shitposted with 3 years ago to join the ticket. <p><i>This isn't going to go well for anyone.",
+            "image_url": "https://files.catbox.moe/cilp4j.png",
             "winning_electoral_vote_number": 270,
             "advisor_url": "https://i.imgur.com/ab6IQNN.gif",
             "recommended_reading": "https://store.steampowered.com/app/1671210/DELTARUNE/",
@@ -77,14 +77,14 @@ campaignTrail_temp.candidate_json = [
             "state": "Arkansas",
             "priority": 5,
             "description": "'",
-            "color_hex": "#0000FF",
+            "color_hex": "#77a678",
             "secondary_color_hex": "#90C0FF",
             "is_active": 0,
             "image_url": "https://i.imgur.com/xptWmhX.png",
             "electoral_victory_message": "'",
             "electoral_loss_message": "'",
             "no_electoral_majority_message": "'",
-            "description_as_running_mate": "<p> \"Gunsmoke, I'm not joining your ticket.\"\n\n<p> \":3 Please it'll be fun schlawg\"\n\n<p> \"No, it won't I already worked a campaign with Cooper in '26, and that sucked. I'm not putting myself in that line\"\n\n<p> <i> \"boykisserupset.jpg </i> I am inside your house.\"\n\n<p> \"Lol. Wait are you for real? Please don't break into my room please dont do this\"\n\n<p> \"Join the ticket.\"",
+            "description_as_running_mate": "<b><i style=\"color:darkgreen;font-size:16px\">Pear</i> cannot believe what he is seeing.</b> \n\n<p style=\"margin:10px\"> He nudges the shoulder of the man to his left; once he has his attention, he points to the sermon-giver. \"<i>I'm not bullshitting you when I say this,</i>\" he says, his assurance of the truth unprompted and only adding to the absurdity of what he says next. \"<i>I used to talk to her online. Politics, stuff like that. I never thought she'd be anywhere close to this, though!</i>\"\n\n<p> The man scoffs as he raises his eyebrows. \"<i>Yeah, right.</i>\" he says, before turning back. That's fair, Pear thinks.  Everyone wants to say they used to know the President. No reason for this person to believe him.\n\n<p> A tap on the shoulder sends him back to reality. He turns, only to be greeted by a woman wearing shades.\n\n<p> <center> \"<i>Mr. Pear,</i>\" she says while tugging at his arm. \"<i>I work for Ms. Exeon's campaign. She'd like to speak with you.</i>\" </center></p>",
             "candidate_score": 0,
             "running_mate": true
         }
@@ -93,14 +93,14 @@ campaignTrail_temp.candidate_json = [
         "model": "campaign_trail.candidate",
         "pk": 301,
         "fields": {
-            "first_name": "JD ",
-            "last_name": "Vance",
+            "first_name": "Mike ",
+            "last_name": "Johnson",
             "election": 21,
             "party": "Republican Party - MAGA",
-            "state": "Ohio",
+            "state": "Louisiana",
             "priority": 1,
             "description": "<p>Put description here</p>",
-            "color_hex": "#A73270",
+            "color_hex": "#d25675",
             "secondary_color_hex": null,
             "is_active": 0,
             "image_url": "https://www.jetsimon.com/public/candidateexample.png",
@@ -116,11 +116,11 @@ campaignTrail_temp.candidate_json = [
         "model": "campaign_trail.candidate",
         "pk": 41591,
         "fields": {
-            "first_name": "Woman _",
-            "last_name": "Trees",
+            "first_name": "HighKing",
+            "last_name": "Floof",
             "election": 21,
             "party": "Turbo Team",
-            "state": "Ohio",
+            "state": "Virginia",
             "priority": 1,
             "description": "<p>Put description here</p>",
             "color_hex": "#86a2a0",
@@ -139,8 +139,8 @@ campaignTrail_temp.candidate_json = [
         "model": "campaign_trail.candidate",
         "pk": 41653,
         "fields": {
-            "first_name": "One-",
-            "last_name": "Community",
+            "first_name": "Thomas",
+            "last_name": "Massie",
             "election": 21,
             "party": "Fourth-Party",
             "state": "Indiana",
@@ -165,64 +165,41 @@ campaignTrail_temp.candidate_json = [
             "first_name": "Jon ",
             "last_name": "Stewart",
             "election": 21,
-            "party": "Turbo Team",
-            "state": "Idaho",
+            "party": "Democratic Party - Podcast Bro",
+            "state": "New York",
             "priority": 1,
             "description": "<p>Put description here</p>",
-            "color_hex": "#0000FF",
+            "color_hex": "#392f6a",
             "secondary_color_hex": null,
             "is_active": 0,
-            "image_url": "https://www.jetsimon.com/public/candidateexample.png",
+            "image_url": "https://i.imgur.com/RDxjwTH.png",
             "electoral_victory_message": "This guy wins!",
             "electoral_loss_message": "This guy loses!",
             "no_electoral_majority_message": "We all win?",
-            "description_as_running_mate": null,
+            "description_as_running_mate": "<b> <i style=\"color:#392F6C;font-size:16px\">Jon Stewart</i> is losing his shit right now.</b>\n\n<p> Holy fuck, he thinks to himself - they actually nominated the most bizarre candidate they could have. A black transgender socialist! He loves it politically, but... damn! That's utterly absurd. What the hell is the Babylon Bee even going to write about? That question immediately segues his mind into thinking of ways to mock the inevitable conservative outrage as a result of this. The amount of wit and sarcasm he could stuff into his next episode would be-\n\n<p> \"<i>Mr. Stewart? There's someone on the phone for you.</i>\" A secretary interrupts his train of thought. He signals for them to bring the phone over to him; at best, it's someone to laugh with over this ordeal, and at worst it's one of his managers. \n\n<center> He brings the phone up to his ear. \"<i>Jon,</i>\" says the voice on the other end.\"<i>Would you be interested in a role on this campaign?</i>\"",
             "candidate_score": 1,
             "running_mate": true
         }
     },
     {
         "model": "campaign_trail.candidate",
-        "pk": 50001,
+        "pk": 50000,
         "fields": {
-            "first_name": "",
-            "last_name": "HighKingFloof",
+            "first_name": "Josh",
+            "last_name": "Shapiro",
             "election": 21,
-            "party": "Turbo Team",
-            "state": "Idaho",
+            "party": "Democratic Party - Establishment Boy Toy",
+            "state": "Pennsylvania",
             "priority": 1,
             "description": "<p>Put description here</p>",
-            "color_hex": "#0000FF",
+            "color_hex": "#4075dd",
             "secondary_color_hex": null,
             "is_active": 0,
-            "image_url": "https://www.jetsimon.com/public/candidateexample.png",
+            "image_url": "https://files.catbox.moe/elrugn.png",
             "electoral_victory_message": "This guy wins!",
             "electoral_loss_message": "This guy loses!",
             "no_electoral_majority_message": "We all win?",
-            "description_as_running_mate": null,
-            "candidate_score": 1,
-            "running_mate": true
-        }
-    },
-    {
-        "model": "campaign_trail.candidate",
-        "pk": 50002,
-        "fields": {
-            "first_name": "Toby",
-            "last_name": "Fox",
-            "election": 21,
-            "party": "Turbo Team",
-            "state": "Idaho",
-            "priority": 1,
-            "description": "<p>Put description here</p>",
-            "color_hex": "#0000FF",
-            "secondary_color_hex": null,
-            "is_active": 0,
-            "image_url": "https://www.jetsimon.com/public/candidateexample.png",
-            "electoral_victory_message": "This guy wins!",
-            "electoral_loss_message": "This guy loses!",
-            "no_electoral_majority_message": "We all win?",
-            "description_as_running_mate": null,
+            "description_as_running_mate": "<b> <i style=\"color:#4075DD;font-size:16px\"> Josh Shapiro </i>pounces, for the moment is just right.</b>\n\n<p> The progressives were so enamored with their total victory that they could not see the failsafe the fallen had prepared. They danced on the convention floor, unaware of the plot unfolding mere feet away from them.</p>\n\n<p> It started with an early rollcall for vice-presidential delegates; far from expected procedure, since Gunsmoke pledged to let the convention choose them the following noon. Then, a few technical errors occur - specific votes aren't tabulated, and the claims of such are ignored. Due to there being less votes, the required number of delegates is lowered by roughly one-hundred. \n\n<p> <center> By the time word reaches Gunsmoke, it's too late. She's stuck with him - and he doesn't intend to let her leave.",
             "candidate_score": 1,
             "running_mate": true
         }
@@ -244,22 +221,6 @@ campaignTrail_temp.running_mate_json = [
         "fields": {
             "candidate": 300,
             "running_mate": 50000
-        }
-    },
-    {
-        "model": "campaign_trail.running_mate",
-        "pk": 125152,
-        "fields": {
-            "candidate": 300,
-            "running_mate": 50001
-        }
-    },
-    {
-        "model": "campaign_trail.running_mate",
-        "pk": 151960,
-        "fields": {
-            "candidate": 300,
-            "running_mate": 50002
         }
     }
 ]
