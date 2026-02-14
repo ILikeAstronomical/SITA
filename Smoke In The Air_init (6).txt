@@ -413,17 +413,17 @@ campaignTrail_temp.modBoxTheme = {
   
   
     const song1 = new Song(
-      "The Revolution Starts Now",
-      "Steve Earle",
-      "https://i.imgur.com/e7fSh3P.png",
-      "https://file.garden/Z-8vn6l_RynAMnyS/2016%20Class%20War/The%20Revolution%20Starts%20Now.mp3"
+      "In The Flesh?",
+      "Pink Floyd",
+      "https://i.imgur.com/c9G3Jxj.png",
+      "https://audio.jukehost.co.uk/hlRBKfAF2JFJPyXabkCPED3vkfX9HNMs"
     );
     
     const song2 = new Song(
-      "Uprising",
-      "Muse",
-      "https://i.imgur.com/yJTZ5yv.png",
-      "https://file.garden/Z-8vn6l_RynAMnyS/2016%20Class%20War/Muse%20-%20Uprising%20%5BOfficial%20Video%5D.mp3"
+      "Sin Eater",
+      "Penelope Scott",
+      "https://i.imgur.com/y8wR8ba.png",
+      "https://audio.jukehost.co.uk/ZB4N8fbvbMH96ViSAmPMLO7QJ51PnWgH"
     );
   
     const song3 = new Song(
