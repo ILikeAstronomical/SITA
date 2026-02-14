@@ -276,17 +276,16 @@ jet_data = {
     "windowColor": "#8db49c",
     "containerColor": "#9c408f",
     "innerWindowColor": "#e5ffeb",
-    "bannerImageUrl": "https://i.imgur.com/s74NzsJ.png",
+    "bannerImageUrl": "https://i.imgur.com/6qWG47P.gif",
     "backgroundImageUrl": "https://i.imgur.com/NsGicUA.png",
     "endingTextColor": "#000000",
-    "customQuote": "\"I really like tucker\" - Gunsmokexeon",
     "gameTitle": "Smoke In The Air"
 }
 
 //#startcode
 
 
-corrr = '\n              <h2>Smoke In The Air</h2><font id="wittyquote" size="4" color="white"><em>"I really like tucker" - Gunsmokexeon</em></font>\n            ';
+corrr = '\n              <img src="https://i.imgur.com/6qWG47P.gif" alt="title" style="width: 1000; object-fit: cover; margin-top: 0px; padding: .2em; margin-bottom: -4px; opacity: 0"> </img>         ';
 
 
 nct_stuff.themes[nct_stuff.selectedTheme].coloring_title = "#7e4582";
@@ -299,7 +298,7 @@ $("#game_window")[0].style.backgroundColor = nct_stuff.themes[nct_stuff.selected
 
 $(".container")[0].style.backgroundColor = "#9c408f";
 
-document.getElementById("header").src = "https://i.imgur.com/s74NzsJ.png";
+document.getElementById("header").src = "https://i.imgur.com/6qWG47P.gif";
 
 document.body.background = "https://i.imgur.com/NsGicUA.png";
 
